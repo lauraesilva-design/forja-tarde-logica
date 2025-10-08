@@ -1,0 +1,34 @@
+*{
+     padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+h1{
+    font-family: "BBH Sans Bogle", sans-serif;
+    color: black;
+}
+body{
+     font-family: "Roboto", sans-serif;
+     background-color: rgb(124, 180, 202);
+     color: aliceblue;
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     justify-content: center;
+     gap: 10px;
+     min-height: 100vh;
+}
+div{
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     justify-content: center;
+     gap: 10px;
+}
+input{
+     padding: 10px;
+     background: transparent;
+     border: none;
+     border:2px solid #ffffffff;
+}
+
